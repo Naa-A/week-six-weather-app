@@ -75,7 +75,8 @@ button {
 
 form {
 box-sizing: border-box;
+ }
 
-
-
+ .open-source-link {
+  padding-top: 25px;
  }
