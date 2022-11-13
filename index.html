@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/styles.css"/>
+  <title>Week 5</title>
+</head>
+
+<body>
+    <div class="container">
+      <div class="app-info">
+        <form id="searching-form" class="searching-form">
+        <input type="text" id="city-input" autofocus="on" autocomplete="off" placeholder="Search for a city" />
+        <button type="submit" value="Search" class="btn btn-outline-success" id="search-button">Search</button>
+        <button type="button" id="current-place" class="btn btn-outline-primary">Current</button>
+        </form>
+        <div class="location-details">
+        <h1 class="card-title" id="city">Accra</h1>
+        <h3 id="date">Monday 12:36</h3>
+        <h2><span class="temperature" id="temperature-number">28</span>
+            <span class="units">
+                    <a id="C" href="#">°C</a>
+                    <a>|</a>
+                    <a id="f" href="#">°F</a>
+            </span>
+        </h2> 
+        <h4><strong>Sunny</strong></h4>
+      </div>
+      </div>
+</div>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
